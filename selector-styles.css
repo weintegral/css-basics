@@ -1,0 +1,16 @@
+div {
+    border: 2px solid black;
+    margin: 10px;
+}
+
+div.sample-div-1 {
+    color: red;
+}
+
+div#sample-div-id {
+    background-color: burlywood;
+}
+
+p#sample-p-id {
+    color: blueviolet;
+}
