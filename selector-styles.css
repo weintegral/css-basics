@@ -14,3 +14,26 @@ div#sample-div-id {
 p#sample-p-id {
     color: blueviolet;
 }
+
+/* Pseudo Classes */
+div#sample-div-id:hover {
+    color:brown;
+    background-color:cadetblue;
+}
+
+form#signup-form input[type="submit"]:focus {
+    background-color: yellow;
+}
+
+input:checked {
+    display: block;
+    margin-top: 5em;
+}
+
+form p:first-child {
+    color: red;
+}
+
+form p:first-of-type {
+    color: red;
+}
