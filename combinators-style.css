@@ -1,0 +1,38 @@
+h2 {
+    color: red;
+}
+
+div {
+    border: 2px solid red;
+    margin: 10px;
+    padding: 5px;
+}
+
+p {
+    color: green;
+}
+
+section p {
+    color: brown;
+}
+
+section > p {
+    color: black;
+    background-color: aqua;
+}
+
+section h2 {
+    color: brown;
+}
+
+div h2 {
+    color: tomato;
+}
+
+ul li {
+    color: red;
+}
+
+footer ul li {
+    color: blue;
+}
