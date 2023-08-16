@@ -1,0 +1,23 @@
+p#para-style-color-keyword {
+    color: blue;
+}
+
+p#para-style-color-hex {
+    color:#f705ba;
+}
+
+p#para-style-color-rgb {
+    color: rgb(39, 30, 3);
+}
+
+p#para-style-color-rgba {
+    color: rgba(39, 30, 3, 0.6);
+}
+
+p#para-style-color-hsl {
+    color: hsl(153, 97%, 13%);
+}
+
+p#para-style-color-hsla {
+    color: hsla(153, 97%, 13%, 0.5);
+}
