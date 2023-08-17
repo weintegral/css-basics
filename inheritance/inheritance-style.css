@@ -1,0 +1,8 @@
+p {
+    color: hsl(1, 76%, 53%);
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}

@@ -6,7 +6,9 @@ div {
 }
 
 p#paragraph-unit-px {
-    font-size: 20px;
+    font-size: 25px;
+    background-color: hsl(296.7deg 51.32% 37.06% / 46%);
+    color: black;
 }
 
 p#paragraph-unit-em {
