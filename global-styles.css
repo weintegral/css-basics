@@ -1,0 +1,18 @@
+:root {
+    --blue: hsl(240, 74%, 45%);
+    --brown: hsl(0, 100%, 12%);
+    --yellow: hsl(58, 97%, 49%);
+}
+
+.content-color {
+    color: var(--brown);
+}
+
+.highlight-content {
+    color: var(--blue);
+    background-color: var(--yellow);
+}
+
+.simple-border {
+    border: 2px black solid;
+}

@@ -1,0 +1,22 @@
+/* Specificity */
+/* id > class > tag */
+
+p {
+    color: hsl(0, 77%, 41%) !important;
+}
+
+p.some-class {
+    background-color: hsl(20, 10%, 20%);
+}
+
+p#some-class {
+    background-color: hsl(233, 39%, 20%);
+}
+
+p#cascade-content-color {
+    color: hsl(147, 86%, 35%);
+}
+
+/* .content-color {
+    background-color: hsl(298, 87%, 35%);
+} */
