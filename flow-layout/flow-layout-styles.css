@@ -1,0 +1,25 @@
+.apply-border {
+    border: 2px solid black;
+}
+
+h2 {
+    background-color: aqua;
+}
+
+.content-height {
+    height: 2rem;
+}
+
+span {
+    color: red;
+    padding: 10px;
+}
+
+strong {
+    color: green;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}

@@ -1,0 +1,111 @@
+/*
+padding-top === padding-block-start
+padding-botton === padding-block-end
+padding-left === padding-inline-start
+padding-right === padding-inline-end
+*/
+
+p.para-box-model-style-1 {
+    width: 80%;
+    color: hsl(3, 67%, 41%);
+
+    /* border styles */
+    border-top: 3px solid blueviolet;
+    border-bottom: 3px solid blue;
+    border-left: 3px solid blueviolet;
+    border-right: 3px solid blue;
+
+    /* margin styles */
+    margin-top: 25px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+    margin-right: 50px;
+
+    /* padding styles */
+    padding-top: 25px;
+    padding-bottom: 35px;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+p.para-box-model-style-2 {
+    width: 80%;
+
+    /* border styles */
+    border: 3px solid blueviolet;
+
+    /* margin styles */
+    margin: 30px 50px;
+
+    /* padding styles */
+    padding: 30px 50px;
+}
+
+p.para-box-model-style-3 {
+    width: 80%;
+
+    /* border styles */
+    border-color: brown;
+    border-style: dashed;
+    border-width: 5px;
+    border-top: 3px solid blueviolet;
+
+    /* margin styles */
+    margin: 30px 40px 50px 60px;
+
+    /* padding styles */
+    padding: 30px 40px 50px 60px;
+}
+
+p.para-box-model-style-4 {
+    background-color: greenyellow;
+    height: 200px;
+    width: 200px;
+    border-radius: 25%;
+}
+
+p.para-box-model-style-5 {
+    height: 200px;
+    width: 200px;
+    background-color: chocolate;
+    border-top-left-radius: 55%;
+    border-top-right-radius: 35%;
+    border-bottom-right-radius: 45%;
+    border-bottom-left-radius: 25%;
+}
+
+p.para-box-model-style-6 {
+    height: 200px;
+    width: 200px;
+    background-color: slateblue;
+    border-radius: 50%;
+}
+
+p.para-box-sizing {
+    width: 500px;
+    color: green;
+    padding: 20px;
+    margin: 30px;
+    border: 3px solid hotpink;
+}
+
+p.para-box-sizing-2 {
+    width: 500px;
+    color: red;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 30px;
+    border: 3px solid hotpink;
+}
+
+div.negative-margin-example {
+    color: red;
+    border: 2px solid black;
+}
+
+div.negative-margin-example h2 {
+    color: blue;
+    background-color: aquamarine;
+    margin: -20px 20px 20px 20px;
+    border: 2px solid brown;
+}
