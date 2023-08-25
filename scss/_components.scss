@@ -1,0 +1,9 @@
+h1 {
+    background-color: skyblue;
+    color: $heading-1-color;
+    font-family: $heading-1-font;
+}
+
+%generic-block-style {
+    border: 4px solid green;
+}

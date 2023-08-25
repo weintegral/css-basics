@@ -1,0 +1,17 @@
+{
+  "name": "scss-basics",
+  "version": "1.0.0",
+  "description": "learnign scss",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass --watch style.scss style.css"
+  },
+  "keywords": [
+    "scss"
+  ],
+  "author": "gopi",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.66.1"
+  }
+}
