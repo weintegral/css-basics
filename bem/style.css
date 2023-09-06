@@ -1,0 +1,29 @@
+body {
+    background-color: white;
+}
+
+.article {
+    color: blue;
+}
+
+.article__para {
+    color: yellowgreen;
+}
+
+.article__para__highlight {
+    background-color: yellow;
+    color: blue;
+}
+
+.article__para--red {
+    color: orange;
+}
+
+.article__para--big {
+    font-size: 1.2rem;
+}
+
+.article__para--big__highlight {
+    background-color: yellow;
+    font-size: xx-large;
+}
